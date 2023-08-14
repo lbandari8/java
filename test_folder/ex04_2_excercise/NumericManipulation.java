@@ -9,7 +9,7 @@ public class NumericManipulation {
         double tax = 0.05; // representing 5% tax, for example
         int quantity = 1; // for example
         double total;
-        String message = custName + " wants to purchase  " + quantity + " " + itemDesc + ".";
+        String message = custName + " wants to purchase " + quantity + " " + itemDesc + ".";
         total = price * quantity * (1 + tax);
         System.out.println(message);
         System.out.printf("Total cost with tax is: %.2f.", total);
